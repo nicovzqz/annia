@@ -1,0 +1,55 @@
+
+.box {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background: rgba(94, 44, 4, 0.8);
+}
+
+.box-content {
+    z-index: 2;
+    animation: slideUp 1.5s ease-out;
+}
+
+.box-title {
+    font-size: 4.5rem;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.box-title span {
+    color: var(--orange);
+}
+
+.box-subtitle {
+    font-size: 1.5rem;
+    color: var(--cream);
+    margin-bottom: 2.5rem;
+    opacity: 0.9;
+}
+
+.botonexplorarcoleccion {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background-color: var(--orange);
+    color: var(--cream);
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.botonexplorarcoleccion:hover {
+    background-color: var(--dark-orange);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}

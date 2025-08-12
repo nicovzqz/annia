@@ -1,0 +1,25 @@
+// BASE 
+
+@use "base/background";
+@use "base/color";
+
+// HEADER 
+
+@use "header/animaciones";
+@use "header/estilosreset";
+@use "header/nav";
+
+// BODY 
+
+@use "body/box";
+@use "body/galeria";
+
+// FOOTER 
+
+@use "footer/sobremi";
+@use "footer/footer";
+
+// CONTACTO
+
+@use "pages/contacto/contacto"
+
